@@ -9,14 +9,14 @@ body *{
     height: 100%;
     padding: 0;
     display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto 1fr;   /* whole screen divided into 2 rows: auto takes minimal space whereas 1fr takes most of the space  */
 }
 
 .windowTitle{
     padding: 10px;
     height: auto;
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
+    font-family: montserrat;
 }
 .windowControls {
     float: right;

@@ -6,8 +6,8 @@ let win;
 function createWindow () {
   // Create the browser window.
    win = new BrowserWindow({
-    width: 900,
-    height: 900,
+    width: 800,
+    height: 600,
     minHeight: 650,      // Limit resizing
     minWidth: 600,
     frame:false,        // To make Text Editor completely customisable and remove default menu 
